@@ -1,0 +1,59 @@
+.card{
+    margin-top: 23px;
+
+}
+
+.nuevo{
+    margin-top: 10px;
+    
+}
+.ancho{
+    max-width: 100px;
+    text-align: center;
+}
+/* 
+p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+} */
+td{
+    text-align: center;
+}
+th{
+    text-align: center;
+    color: white;
+}
+
+.botonb{
+    color: rgb(205, 0, 0);
+}
+.botona{
+    color: rgb(108, 108, 175);
+}
+.compartirs{
+    display: inline-block;
+}
+
+thead{
+    border-style: solid;
+    border-radius: 10px;
+    background: rgb(0, 116, 0);
+    border-color: rgb(0, 116, 0);
+}
+.nuevo{
+    float: right;
+}
+h3{
+    margin-left: 40px;
+    
+    
+    margin: 0px;
+    padding: 0px;
+}
+/*.radio{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(53, 53, 53);
+    
+}*/

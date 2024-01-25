@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALIDACION</title>
+
+    <link rel="stylesheet" href="css/validacion.css">
+</head>
+<body>
+    <form action="#" method="post" autocomplete="off">
+        <div class="input">
+            <label for="username">Nombre Usuario</label>
+            <input id="username" name="username"type="text">
+            <span>Solo puede contener letras</span>
+            <span class="span2">Solo puede contener letras</span>
+        </div>
+
+        <div class="input">
+            <label for="email">Email</label>
+            <input id="email" name="email"type="text">
+            <span>Debe ser una direccion de email valida</span>
+            <span class="span2">Debe ser una direccion de email valida</span>
+        </div>
+
+        <div class="input">
+            <label for="password">Nombre Usuario</label>
+            <input id="password" name="password"type="text">
+            <span>Debe contener una mayuscua, una minuscula y un numero</span>
+            <span class="span2">Debe contener una mayuscua, una minuscula y un numero</span>
+        </div>
+
+        <div class="input">
+            <label for="telephone">Nombre Usuario</label>
+            <input id="telephone" name="telephone"type="text">
+            <span>El numero de estar en formato (+00 000 000 000)</span>
+            <span class="span2">El numero de estar en formato (+00 000 000 000)</span>
+        </div>
+
+        <input type="radio" id="option1" name="option" value="option1">
+        <label for="option1">Estilo1</label><br>
+        <input type="radio" id="option2" name="option" value="option2">
+        <label for="option2">Estilo2</label><br>
+
+        <input type="submit" class="submit-button" value="Registrar">
+
+    </form>
+
+
+     <script src="js/formulario.js"></script>
+</body>
+</html>
